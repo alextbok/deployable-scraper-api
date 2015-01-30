@@ -1,0 +1,21 @@
+
+# Configuration file
+
+server :
+   #change this to listen on other IPs!!
+   host   : localhost
+   port   : 8080
+
+endpoints :
+   -
+      endpoint_url   : /get1/
+      resource_url   : http://doc.scrapy.org/en/latest/topics/selectors.html
+      xpath          : //title/text()
+   -
+      endpoint_url   : /get2/
+      resource_url   : http://doc.scrapy.org/en/latest/topics/selectors.html
+      xpath          : //title/text()
+#   -
+#      endpoint_url   : <val>
+#      resource_url   : <val>
+#      xpath          : <val>
